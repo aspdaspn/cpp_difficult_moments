@@ -30,8 +30,32 @@ int main(int argc, char** args) {
         timerForCifFind.print();
         PrintCounter(vowel_counter);
         file.close();
-        
 
+        vowel_counter = 0;
+        file.open("../data/war_and_peace.txt");
+        const Timer timerForCifFor("Count_If and For");
+        VowelCounterCifFor(file, vowel_counter);
+        timerForCifFor.print();
+        PrintCounter(vowel_counter);
+        file.close();
+
+        vowel_counter = 0;
+        file.open("../data/war_and_peace.txt");
+        const Timer timerForFind("For and Find");
+        VowelCounterForFind(file, vowel_counter);
+        timerForFind.print();
+        PrintCounter(vowel_counter);
+        file.close();
+
+        vowel_counter = 0;
+        file.open("../data/war_and_peace.txt");
+        const Timer timerForFor("For and For");
+        VovelConterForFor(file, vowel_counter);
+        timerForFor.print();
+        PrintCounter(vowel_counter);
+        file.close();
+    } else {
+        std::cout << "Error reading file!" << std::endl;
     }
 
 

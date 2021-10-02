@@ -1,9 +1,6 @@
 #pragma once
 #include <vector>
-#include <algorithm>
 #include <iostream>
-#include <string>
-#include <fstream>
 
 /**
  * Header file with helping functions
@@ -45,17 +42,25 @@ void PrintVector(const std::vector<T*> &ptr_array) {
 //
 // This function counts Vowels using count_if() and find()
 //
-void VowelCounterCifFind(std::ifstream &file, int64_t &counter) {
-    const std::string vowels("AEIOUaeiou");
-    for(std::string word; file >> word;)
-        counter += std::count_if(word.begin(), word.end(), 
-                [&vowels] (const char &ch) {return vowels.find(ch) != std::string::npos;});
-}
+void VowelCounterCifFind(std::ifstream &file, int64_t &counter);
+
+//
+// This function counts Vowels using count_if() and for()
+//
+void VowelCounterCifFor(std::ifstream &file, int64_t &counter);
+
+//
+// This function counts Vowels using for() and find()
+//
+void VowelCounterForFind(std::ifstream &file, int64_t &counter);
+
+//
+// This function counts Vowels using two for()
+//
+void VovelConterForFor(std::ifstream &file, int64_t &counter);
 
 //
 // This function prints the number of Vowel characters
 //
 
-void PrintCounter(int64_t &counter) {
-    std::cout << "Total vowel characters:\t" << counter << std::endl;
-}
+void PrintCounter(int64_t &counter);
