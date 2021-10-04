@@ -5,6 +5,9 @@
 #include <algorithm>
 #include <cmath>
 
+//
+// Matrix class
+//
 class Matrix {
     private:
         std::vector<std::vector<int>> m_matrix;

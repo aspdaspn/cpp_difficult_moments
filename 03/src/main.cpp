@@ -1,5 +1,6 @@
 #include "main.h"
 #include "matrix.h"
+#include "iterator.h"
 
 void VectorAveragePushBack(std::vector<double> &vd) {
     const double sum = std::accumulate(vd.begin(), vd.end(), 0.0);
@@ -27,6 +28,10 @@ int main(int argc, char** args) {
     m1.PrintMatrix();
     std::cout << "Determinant: " << m1.getDeterminant() << std::endl;
 
+    std::cout << "Exercise 3" << std::endl;
+    for (auto i : inRange<int> {10, 20})
+        std::cout << i << " ";
+    std::cout << std::endl;
 
     return EXIT_SUCCESS;
 }
