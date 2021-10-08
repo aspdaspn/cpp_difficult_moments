@@ -1,0 +1,12 @@
+Exercise 1 and 2
+83 86 77 15 93 35 86 92 49 21 
+15 21 35 49 77 83 86 86 92 93 
+Exercise 3
+Count_If and Find:	127.147 ms
+Total vowel characters:	1045571
+Count_If and For:	389.588 ms
+Total vowel characters:	1045571
+For and Find:	70.4108 ms
+Total vowel characters:	1045571
+For and For:	97.2928 ms
+Total vowel characters:	1045571
