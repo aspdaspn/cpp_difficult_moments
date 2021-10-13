@@ -1,0 +1,7 @@
+Exercise 1
+cat, dog, mouse, unicorn, 
+five, one, seven, two, 
+Execise 2
+Input Text: Hello World
+ Is it true
+ This is the longest sentence I've typed
