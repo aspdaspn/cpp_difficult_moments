@@ -1,0 +1,66 @@
+Exercise 1
+This thread is: 1
+This thread is: 2
+Exercise 2
+0% 
+8% 
+13% 
+18% 
+21% 
+25% 
+28% 
+31% 
+34% 
+37% 
+40% 
+42% 
+45% 
+47% 
+50% 
+52% 
+54% 
+57% 
+59% 
+61% 
+63% 
+65% 
+67% 
+69% 
+71% 
+73% 
+75% 
+77% 
+79% 
+81% 
+82% 
+84% 
+86% 
+88% 
+90% 
+91% 
+93% 
+95% 
+96% 
+98% 
+Prime number = 15485863
+Exercise 3
+Owner puts item:   1 with price: 9383
+Theef stolls item: 1 with price: 9383
+Owner puts item:   2 with price: 886
+Owner puts item:   3 with price: 2777
+Theef stolls item: 2 with price: 886
+Owner puts item:   4 with price: 6915
+Theef stolls item: 2 with price: 886
+Owner puts item:   5 with price: 7793
+Owner puts item:   6 with price: 8335
+Theef stolls item: 5 with price: 7793
+Owner puts item:   7 with price: 5386
+Theef stolls item: 7 with price: 5386
+Owner puts item:   8 with price: 492
+Theef stolls item: 2 with price: 886
+Owner puts item:   9 with price: 6649
+Owner puts item:   10 with price: 1421
+Theef stolls item: 10 with price: 1421
+Theef stolls item: 2 with price: 886
+Theef stolls item: 8 with price: 492
+Theef stolls item: 8 with price: 492
