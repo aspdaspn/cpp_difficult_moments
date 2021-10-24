@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.12)
 
 PROJECT(project)
-add_executable(project.bin src/main.cpp)
+add_executable(project.bin src/person.cpp src/phonenumber.cpp src/phonebook.cpp src/main.cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)

@@ -1,10 +1,6 @@
 #include "main.h"
 
-TEST(test_case, example_test) {
-    EXPECT_EQ(2, 2);
-}
-
-int main(int argc, char** argv) {
-    testing::InitGoogleTest(&argc, argv);
+int main(int argc, const char** argv) {
+    testing::InitGoogleTest();
     return RUN_ALL_TESTS();
 }
